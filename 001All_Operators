@@ -1,0 +1,15 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+// All about Operators
+
+int main()
+{
+    cout<<(5&7)<<endl; // 5   In And operator Multiplication is to be done
+    cout<<(5|7)<<endl; // 7   In Or operator Addition is to be done
+    cout<<(!1)<<endl;  // 0   In Not operator Composite is to be done
+    cout<<(5^7)<<endl; // 2   In Xor opertor Same value are give 0 and different value are give 1
+    cout<<(5^15)<<endl; // 15
+
+    return 0;
+}
