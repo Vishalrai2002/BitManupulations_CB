@@ -1,0 +1,30 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+// Program to check whether the ith bit is 0 or 1
+
+
+bool checkIthBit(int n,int i){
+      int mask=(1<<i);
+
+      if((n&mask)>0){
+          return true;
+      }
+      else{
+          return false;
+      }
+}
+
+int main()
+{
+    int n=10;
+   int i=3;
+    if(checkIthBit(n,i)){
+        cout<<i<<"rd bit is " <<1<<endl;
+    }
+    else{
+        cout<<i<<"rd bit is "<<0<<endl; 
+    }
+
+    return 0;
+}
